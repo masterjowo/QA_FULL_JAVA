@@ -1,0 +1,148 @@
+###########BEBERAPA PERTNYAAN SAAT PERTAMA KALI "mvn archetype:generate" ##############
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2200: maven-archetype-quickstart <= wajib
+Choose archetype:
+1: remote -> com.github.ywchang:maven-archetype-quickstart (Provide up-to-date java quickstart archetype)
+2: remote -> com.haoxuer.maven.archetype:maven-archetype-quickstart (a simple maven archetype)
+3: remote -> org.apache.maven.archetypes:maven-archetype-quickstart (An archetype which contains a sample Maven project.)
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 3:
+Choose org.apache.maven.archetypes:maven-archetype-quickstart version: 
+1: 1.0-alpha-1
+2: 1.0-alpha-2
+3: 1.0-alpha-3
+4: 1.0-alpha-4
+5: 1.0
+6: 1.1
+7: 1.3
+8: 1.4
+9: 1.5
+Choose a number: 9:
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.5/maven-archetype-quickstart-1.5.jar (11 kB at 64 kB/s)
+[INFO] Using property: javaCompilerVersion = 17
+[INFO] Using property: junitVersion = 5.11.0
+Define value for property 'groupId': Uji_Coba_Api_Testing
+Define value for property 'artifactId': Belajar_v1 
+Define value for property 'version' 1.0-SNAPSHOT: 
+Define value for property 'package' Uji_Coba_Api_Testing: Uji.Coba.Api.Testing
+Confirm properties configuration:
+javaCompilerVersion: 17
+junitVersion: 5.11.0
+groupId: Uji_Coba_Api_Testing
+artifactId: Belajar_v1
+version: 1.0-SNAPSHOT
+package: Uji.Coba.Api.Testing
+ Y: Y
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.5
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: Uji_Coba_Api_Testing
+[INFO] Parameter: artifactId, Value: Belajar_v1
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: package, Value: Uji.Coba.Api.Testing
+[INFO] Parameter: packageInPathFormat, Value: Uji/Coba/Api/Testing
+[INFO] Parameter: junitVersion, Value: 5.11.0
+[INFO] Parameter: package, Value: Uji.Coba.Api.Testing
+[INFO] Parameter: groupId, Value: Uji_Coba_Api_Testing
+[INFO] Parameter: artifactId, Value: Belajar_v1
+[INFO] Parameter: javaCompilerVersion, Value: 17
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[WARNING] Don't override file E:\QA\QA1\QA_FULL_JAVA\Belajar_v1\src\main\java\Uji\Coba\Api\Testing
+[WARNING] Don't override file E:\QA\QA1\QA_FULL_JAVA\Belajar_v1\src\test\java\Uji\Coba\Api\Testing
+[WARNING] CP Don't override file E:\QA\QA1\QA_FULL_JAVA\Belajar_v1\.mvn
+[INFO] Project created from Archetype in dir: E:\QA\QA1\QA_FULL_JAVA\Belajar_v1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:50 min
+[INFO] Finished at: 2024-11-27T17:04:28+07:00
+[INFO] ------------------------------------------------------------------------
+##############################################################################################
+
+edua cara yang Anda sebutkan, yaitu mvn archetype:generate dan Maven: Add a Dependency di Visual Studio Code, digunakan dalam konteks yang berbeda ketika bekerja dengan Maven. Berikut adalah perbedaannya:
+
+1. "mvn archetype:generate"
+Fungsi:
+Digunakan untuk membuat proyek Maven baru.
+Perintah ini menggunakan Maven Archetype, yaitu templat proyek bawaan yang menyediakan struktur dasar proyek Maven.
+Cocok jika Anda ingin memulai proyek dari nol atau berdasarkan pola tertentu (misalnya, aplikasi web, aplikasi Spring Boot, atau aplikasi sederhana berbasis Java).
+Langkah-Langkah:
+Buka terminal.
+
+Jalankan perintah:
+
+bash
+Salin kode
+mvn archetype:generate
+Maven akan meminta Anda untuk memilih:
+
+Archetype: Template proyek yang ingin digunakan.
+GroupId: Nama organisasi atau proyek Anda (biasanya seperti com.example).
+ArtifactId: Nama proyek (folder utama proyek Anda).
+Version: Versi awal proyek.
+Package: Nama paket Java (seperti com.example.project).
+Setelah selesai, Maven akan menghasilkan struktur proyek, seperti:
+
+css
+Salin kode
+my-app/
+├── pom.xml
+└── src/
+    ├── main/
+    │   ├── java/
+    │   └── resources/
+    └── test/
+        ├── java/
+        └── resources/
+Kelebihan:
+Cocok untuk memulai proyek baru dengan struktur dasar yang sesuai dengan kebutuhan Anda.
+Banyak opsi archetype yang tersedia (misalnya, aplikasi CLI, aplikasi Spring Boot, aplikasi web).
+Menghemat waktu dalam membuat struktur proyek dari nol.
+Kekurangan:
+Tidak relevan untuk proyek yang sudah ada (tidak berguna jika hanya ingin menambahkan dependensi ke proyek yang sudah dibuat).
+2. Maven: Add a Dependency (di VS Code)
+Fungsi:
+Digunakan untuk menambahkan dependensi ke file pom.xml di proyek Maven yang sudah ada.
+Ini mempermudah pengelolaan dependensi dalam proyek yang sudah dibuat tanpa harus mengedit file pom.xml secara manual.
+Langkah-Langkah:
+Buka proyek Maven di VS Code (pastikan file pom.xml ada di root direktori).
+Tekan Ctrl + Shift + P untuk membuka Command Palette.
+Ketik "Maven: Add a Dependency", lalu pilih opsi tersebut.
+Masukkan nama dependensi atau sebagian dari nama dependensi (misalnya, junit).
+VS Code akan menampilkan daftar dependensi dari repositori Maven Central yang cocok.
+Pilih dependensi yang diinginkan, lalu pilih versi yang sesuai.
+Dependensi tersebut akan ditambahkan ke file pom.xml dalam format:
+xml
+
+
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.9.2</version>
+</dependency>
+
+Kelebihan:
+Cocok untuk mengelola dependensi di proyek yang sudah ada.
+Mempermudah pencarian dependensi dari Maven Central tanpa harus membuka browser.
+Tidak perlu mengedit file pom.xml secara manual.
+Kekurangan:
+Tidak dapat digunakan untuk membuat proyek baru atau mengatur struktur awal proyek Maven.
+Perbandingan
+Fitur				|	mvn archetype:generate 					|	Maven: Add a Dependency
+Tujuan				|	Membuat proyek Maven baru dari template			|	Menambahkan dependensi ke proyek yang sudah ada
+Konteks Penggunaan		|	Untuk memulai proyek baru 				|	Untuk mengelola atau memperbarui dependensi
+Hasil Utama			|	Struktur proyek lengkap (folder, pom.xml, dll.)		|	Dependensi baru ditambahkan ke file pom.xml
+Penggunaan di VS Code		|	Menggunakan terminal atau eksternal (manual)		| 	Digunakan langsung melalui antarmuka VS Code
+Kemudahan			|	Harus memilih parameter secara manual di terminal	|	Mudah, pencarian dependensi otomatis dari Maven Central
+Fleksibilitas			|	Tergantung pada archetype yang tersedia			|	Sangat fleksibel untuk menambah atau menghapus dependensi
+Cocok untuk Proyek Baru?	|	✔️							|	❌
+Cocok untuk Proyek yang Ada?	|	❌							|	✔️
+Kapan Menggunakan Keduanya?
+Gunakan mvn archetype:generate:
+
+Saat Anda memulai proyek baru.
+Ketika Anda membutuhkan struktur proyek yang sudah diatur berdasarkan template tertentu (misalnya, aplikasi Spring Boot, aplikasi CLI).
+Gunakan Maven: Add a Dependency:
+
+Saat proyek Maven Anda sudah dibuat dan Anda ingin menambahkan dependensi tambahan ke file pom.xml.
+Untuk mempercepat pencarian dependensi dari Maven Central langsung di dalam VS Code.
+Jika Anda membutuhkan panduan untuk salah satu cara ini lebih dalam, saya siap membantu! 😊

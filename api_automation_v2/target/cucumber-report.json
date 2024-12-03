@@ -1,0 +1,506 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-03T04:18:46.655Z",
+        "before": [
+          {
+            "result": {
+              "duration": 745132300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sebagai pengguna saya dapat melihat semua data",
+        "description": "",
+        "id": "end-to-end-simulation-test;sebagai-pengguna-saya-dapat-melihat-semua-data",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.After_setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2035595500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Dengan titik akhir API \"/products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/products\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.dengan_titik_akhir_API(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Saat saya mengirim permintaan GET ke titik akhir",
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.saat_saya_mengirim_permintaan_GET_ke_titik_akhir()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5297400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Maka kode status respons harus 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.maka_kode_status_respons_harus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131106100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Dan badan respons harus berisi daftar sumber daya",
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.dan_badan_respons_harus_berisi_daftar_sumber_daya()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LihatSemuaData"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T04:18:49.663Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "melihat data id tertentu",
+        "description": "",
+        "id": "end-to-end-simulation-test;melihat-data-id-tertentu",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.After_setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 746894500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "diberikan endpoint \"/products/\" dan ID \u003d 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/products/\"",
+                  "offset": 19
+                },
+                {
+                  "val": "1",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.diberikan_endpoint_dan_ID(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Saat saya mengirim permintaan GET ke titik akhir",
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.saat_saya_mengirim_permintaan_GET_ke_titik_akhir()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1998500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Maka kode status respons harus 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.maka_kode_status_respons_harus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15848500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Dan detail produk dengan ID \u003d 1 harus ditampilkan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.dan_detail_produk_dengan_ID_harus_ditampilkan(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LihatSalahSatuData"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T04:18:50.447Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Pengguna menambahkan produk baru",
+        "description": "",
+        "id": "end-to-end-simulation-test;pengguna-menambahkan-produk-baru",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.After_setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 888573000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Saat pengguna mengirim permintaan POST ke \"/products/add\" dengan payload berikut:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/products/add\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.saat_pengguna_mengirim_permintaan_POST_ke_dengan_payload_berikut(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When ",
+            "doc_string": {
+              "line": 21,
+              "value": "{\n  \"title\": \"Produk Baru\"\n}"
+            }
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Maka status respons harus 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.maka_status_respons_harus(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2998200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Dan isi respons harus berisi title \"Produk Baru\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Produk Baru\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.dan_isi_respons_harus_berisi(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Dan ID produk telah tersimpan di sistem",
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.dan_ID_produk_telah_tersimpan_di_sistem()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddData"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T04:18:51.351Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User update data dengan id yang telah di sampan sebelumnya",
+        "description": "",
+        "id": "end-to-end-simulation-test;user-update-data-dengan-id-yang-telah-di-sampan-sebelumnya",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.After_setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 777814800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Saat pengguna mengirim permintaan put ke \"/products/1\" dengan payload berikut:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/products/1\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.saat_pengguna_mengirim_permintaan_put_ke_dengan_payload_berikut(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When ",
+            "doc_string": {
+              "line": 33,
+              "value": "{\n  \"title\": \"Produk Baru v2\"\n}"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Maka kode status respons harus 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.maka_kode_status_respons_harus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2867300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Dan isi respons harus berisi title \"Produk Baru v2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Produk Baru v2\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.dan_isi_respons_harus_berisi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpadteData"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T04:18:52.140Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User hapus data dengan id yang dutentukan",
+        "description": "",
+        "id": "end-to-end-simulation-test;user-hapus-data-dengan-id-yang-dutentukan",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.StepDefenitions.After_setUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 811137400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Saat pengguna mengirim permintaan delete ke \"/products/1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/products/1\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.saat_pengguna_mengirim_permintaan_delete_ke(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Maka kode status respons harus 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.maka_kode_status_respons_harus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12351600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Dan isi respons harus berisi isDeleted \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefenitions.StepDefenitions.dan_isi_respons_harus_berisi_isDeleted(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteData"
+          }
+        ]
+      }
+    ],
+    "name": "End to End simulation Test",
+    "description": "Description: Kami akan menguji beberapa skenario menerapkan Tes E2E pada dummy json pada web site https://dummyjson.com/docs/products#products-all mengunakan cucumber, testng, dan RestAssured ",
+    "id": "end-to-end-simulation-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/End2End_Test.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: hasil_test_api_dummyjson # Menentukan nama image secara spesifik
+    ports:
+      - "3674:80" # Port host 8080 ke port container 80
+    container_name: hasil_test_api_dummyjson # Nama container
