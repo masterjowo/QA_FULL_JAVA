@@ -1,4 +1,4 @@
-Feature: End to End simulation Test _AAA
+Feature: End to End simulation Test
 Description: Kami akan menguji beberapa skenario menerapkan Tes E2E pada dummy json pada web site https://dummyjson.com/docs/products#products-all mengunakan cucumber, testng, dan RestAssured 
 
   @LihatSemuaData
