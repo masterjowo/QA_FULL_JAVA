@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="6.446">
-    <testcase classname="End to End simulation Test _AAA" name="Sebagai pengguna saya dapat melihat semua data" time="2.829">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="7.801">
+    <testcase classname="End to End simulation Test" name="Sebagai pengguna saya dapat melihat semua data" time="3.848">
         <system-out><![CDATA[Given Dengan titik akhir API "/products"....................................passed
 When Saat saya mengirim permintaan GET ke titik akhir.......................passed
 Then Maka kode status respons harus 200.....................................passed
 And Dan badan respons harus berisi daftar sumber daya.......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="End to End simulation Test _AAA" name="melihat data id tertentu" time="0.875">
+    <testcase classname="End to End simulation Test" name="melihat data id tertentu" time="0.83">
         <system-out><![CDATA[Given diberikan endpoint "/products/" dan ID = 1............................passed
 When Saat saya mengirim permintaan GET ke titik akhir.......................passed
 Then Maka kode status respons harus 200.....................................passed
 And Dan detail produk dengan ID = 1 harus ditampilkan.......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="End to End simulation Test _AAA" name="Pengguna menambahkan produk baru" time="0.944">
+    <testcase classname="End to End simulation Test" name="Pengguna menambahkan produk baru" time="0.947">
         <system-out><![CDATA[When Saat pengguna mengirim permintaan POST ke "/products/add" dengan payload berikut:.passed
 Then Maka status respons harus 201..........................................passed
 And Dan isi respons harus berisi title "Produk Baru"........................passed
 And Dan ID produk telah tersimpan di sistem.................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="End to End simulation Test _AAA" name="User update data dengan id yang telah di sampan sebelumnya" time="0.791">
+    <testcase classname="End to End simulation Test" name="User update data dengan id yang telah di sampan sebelumnya" time="0.878">
         <system-out><![CDATA[When Saat pengguna mengirim permintaan put ke "/products/1" dengan payload berikut:.passed
 Then Maka kode status respons harus 200.....................................passed
 And Dan isi respons harus berisi title "Produk Baru v2".....................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="End to End simulation Test _AAA" name="User hapus data dengan id yang dutentukan" time="0.79">
+    <testcase classname="End to End simulation Test" name="User hapus data dengan id yang dutentukan" time="0.821">
         <system-out><![CDATA[When Saat pengguna mengirim permintaan delete ke "/products/1"..............passed
 Then Maka kode status respons harus 200.....................................passed
 And Dan isi respons harus berisi isDeleted "true"...........................passed
