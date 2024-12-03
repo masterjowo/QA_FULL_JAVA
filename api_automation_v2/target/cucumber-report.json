@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-12-03T04:18:46.655Z",
+        "start_timestamp": "2024-12-03T09:00:46.631Z",
         "before": [
           {
             "result": {
-              "duration": 745132300,
+              "duration": 754909200,
               "status": "passed"
             },
             "match": {
@@ -18,10 +18,11 @@
         "line": 5,
         "name": "Sebagai pengguna saya dapat melihat semua data",
         "description": "",
-        "id": "end-to-end-simulation-test;sebagai-pengguna-saya-dapat-melihat-semua-data",
+        "id": "end-to-end-simulation-test--aaa;sebagai-pengguna-saya-dapat-melihat-semua-data",
         "after": [
           {
             "result": {
+              "duration": 992700,
               "status": "passed"
             },
             "match": {
@@ -34,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2035595500,
+              "duration": 1861893800,
               "status": "passed"
             },
             "line": 6,
@@ -52,6 +53,7 @@
           },
           {
             "result": {
+              "duration": 1093300,
               "status": "passed"
             },
             "line": 7,
@@ -63,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 5297400,
+              "duration": 4376100,
               "status": "passed"
             },
             "line": 8,
@@ -81,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 131106100,
+              "duration": 127921200,
               "status": "passed"
             },
             "line": 9,
@@ -99,10 +101,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-03T04:18:49.663Z",
+        "start_timestamp": "2024-12-03T09:00:49.474Z",
         "before": [
           {
             "result": {
+              "duration": 2009300,
               "status": "passed"
             },
             "match": {
@@ -113,7 +116,7 @@
         "line": 12,
         "name": "melihat data id tertentu",
         "description": "",
-        "id": "end-to-end-simulation-test;melihat-data-id-tertentu",
+        "id": "end-to-end-simulation-test--aaa;melihat-data-id-tertentu",
         "after": [
           {
             "result": {
@@ -129,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 746894500,
+              "duration": 861310200,
               "status": "passed"
             },
             "line": 13,
@@ -151,7 +154,6 @@
           },
           {
             "result": {
-              "duration": 1998500,
               "status": "passed"
             },
             "line": 14,
@@ -163,7 +165,6 @@
           },
           {
             "result": {
-              "duration": 1998500,
               "status": "passed"
             },
             "line": 15,
@@ -181,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 15848500,
+              "duration": 4992700,
               "status": "passed"
             },
             "line": 16,
@@ -205,11 +206,10 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-03T04:18:50.447Z",
+        "start_timestamp": "2024-12-03T09:00:50.361Z",
         "before": [
           {
             "result": {
-              "duration": 998100,
               "status": "passed"
             },
             "match": {
@@ -220,7 +220,7 @@
         "line": 19,
         "name": "Pengguna menambahkan produk baru",
         "description": "",
-        "id": "end-to-end-simulation-test;pengguna-menambahkan-produk-baru",
+        "id": "end-to-end-simulation-test--aaa;pengguna-menambahkan-produk-baru",
         "after": [
           {
             "result": {
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 888573000,
+              "duration": 930414500,
               "status": "passed"
             },
             "line": 20,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 998100,
+              "duration": 5404000,
               "status": "passed"
             },
             "line": 26,
@@ -276,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 2998200,
+              "duration": 1746000,
               "status": "passed"
             },
             "line": 27,
@@ -294,7 +294,7 @@
           },
           {
             "result": {
-              "duration": 2000900,
+              "duration": 2005700,
               "status": "passed"
             },
             "line": 28,
@@ -312,7 +312,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-03T04:18:51.351Z",
+        "start_timestamp": "2024-12-03T09:00:51.310Z",
         "before": [
           {
             "result": {
@@ -326,7 +326,7 @@
         "line": 31,
         "name": "User update data dengan id yang telah di sampan sebelumnya",
         "description": "",
-        "id": "end-to-end-simulation-test;user-update-data-dengan-id-yang-telah-di-sampan-sebelumnya",
+        "id": "end-to-end-simulation-test--aaa;user-update-data-dengan-id-yang-telah-di-sampan-sebelumnya",
         "after": [
           {
             "result": {
@@ -342,7 +342,7 @@
         "steps": [
           {
             "result": {
-              "duration": 777814800,
+              "duration": 786201100,
               "status": "passed"
             },
             "line": 32,
@@ -364,7 +364,6 @@
           },
           {
             "result": {
-              "duration": 1001500,
               "status": "passed"
             },
             "line": 38,
@@ -382,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 2867300,
+              "duration": 2005200,
               "status": "passed"
             },
             "line": 39,
@@ -406,7 +405,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-03T04:18:52.140Z",
+        "start_timestamp": "2024-12-03T09:00:52.107Z",
         "before": [
           {
             "result": {
@@ -420,7 +419,7 @@
         "line": 42,
         "name": "User hapus data dengan id yang dutentukan",
         "description": "",
-        "id": "end-to-end-simulation-test;user-hapus-data-dengan-id-yang-dutentukan",
+        "id": "end-to-end-simulation-test--aaa;user-hapus-data-dengan-id-yang-dutentukan",
         "after": [
           {
             "result": {
@@ -436,7 +435,7 @@
         "steps": [
           {
             "result": {
-              "duration": 811137400,
+              "duration": 788410400,
               "status": "passed"
             },
             "line": 43,
@@ -454,7 +453,6 @@
           },
           {
             "result": {
-              "duration": 998200,
               "status": "passed"
             },
             "line": 44,
@@ -472,7 +470,6 @@
           },
           {
             "result": {
-              "duration": 12351600,
               "status": "passed"
             },
             "line": 45,
@@ -496,9 +493,9 @@
         ]
       }
     ],
-    "name": "End to End simulation Test",
+    "name": "End to End simulation Test _AAA",
     "description": "Description: Kami akan menguji beberapa skenario menerapkan Tes E2E pada dummy json pada web site https://dummyjson.com/docs/products#products-all mengunakan cucumber, testng, dan RestAssured ",
-    "id": "end-to-end-simulation-test",
+    "id": "end-to-end-simulation-test--aaa",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/End2End_Test.feature",
     "tags": []
